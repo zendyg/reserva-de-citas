@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mi página con secciones</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+          <div class="logo">
+            <img src="img/logo.jpg" alt="Logo">
+          </div>
+          <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+
+    <div class="container">
+        <section id="home">
+            <h1>Bienvenido a mi página</h1>
+            <p>Centro integral de salud de avanzada, situado en la ciudad de Arroyo Seco, que ofrece un servicio eficiente en especialidades médicas y diagnóstico por imágenes.
+
+                Este centro se destaca por brindar servicios médicos de la más alta calidad profesional y humana, además de apoyo tecnológico de vanguardia que se caracteriza por la constante renovación en los equipamientos.
+                
+                Nuestro compromiso es cuidar a nuestros pacientes, apelando a recursos humanos altamente calificados, respaldados con equipos de diagnóstico médico de última generación; colocándonos como centro médico de referencia en la zona.</p>
+        </section>
+
+        <section id="about">
+            <h2>Acerca de mí</h2>
+            <p>Nuestro compromiso es cuidar a nuestros pacientes, apelando a recursos humanos altamente calificados, respaldados con equipos de diagnóstico médico de última generación; colocándonos como centro médico de referencia en la zona.</p>
+        </section>
+        <section id="portfolio">
+            <h2>Ahora puedes Reservar de manera Online</h2>
+            <div class="project">
+                <img src= "img/foto1.jpg" alt="Proyecto 1">
+                <p>El siguiente formulario te permitirá seleccionar turnos online.
+                    Fácil de usar, rápida y eficiente.
+                    Elegí la especialidad, el especialista y luego el turno disponible que quieras reservar y completá tus datos.
+                    ¡Listo! Tu turno queda agendado en minutos.</p>
+    
+            </div>
+        </section>
+        <section id="services">
+            <h2 class="titulo-servicio">Servicios</h2>
+            <ul>
+                <li>Cardiologia </li>
+                <li>Endroquinologia</li>
+                <li>Especialidades Diabeticas</li>
+            </ul>
+
+            <h1>Reserva de Citas</h1>
+
+<form id="appointmentForm">
+    <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="specialty">Especialidad:</label>
+    <select id="specialty" name="specialty" required>
+        <option value="">Seleccione una especialidad</option>
+        <option value="cardiologia">Cardiología</option>
+        <option value="endocrinologia">Endocrinología</option>
+        <option value="especialidades-diabeticas">Especialidades Diabéticas</option>
+    </select>
+
+    <label for="date">Fecha:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Hora:</label>
+    <input type="time" id="time" name="time" required>
+
+    <input type="submit" value="Reservar">
+</form>
+
+<div id="appointmentsList">
+    <!-- Aquí se mostrarán las citas reservadas -->
+</div>
+        </section>
+
+    <footer>
+        <p>Derechos de autor &copy; 2023 Zendy Gotera.Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
