@@ -13,7 +13,7 @@ body {
 
 /* Estilos del menú de navegación */
 header {
-    background-color: #184379; /* Color de fondo del encabezado */
+    background-color: #123e60; /* Color de fondo del encabezado */
     padding: 20px;
   }
 
@@ -28,7 +28,7 @@ header {
   }
   
   .logo img {
-    width: 100px; /* Ancho del logotipo */
+    width: 200px; /* Ancho del logotipo */
     height: auto;
   }
   
@@ -67,7 +67,17 @@ section p {
     text-align: justify;
 }
 
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+}
 /* Estilos del formulario de reserva de citas */
+
+
 #appointmentForm {
     margin: 0 auto; /* Centrar horizontalmente */
     max-width: 400px; /* Ancho máximo del formulario */
@@ -96,55 +106,12 @@ section p {
     background-color: #555; /* Color de fondo del botón de enviar al pasar el mouse */
 }
 
-/* Estilos del portafolio */
-.project {
-    margin-bottom: 20px;
-}
 
-.project img {
-    max-width: 100%;
-}
 
-/* Estilos del formulario de contacto */
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  #contact form {
-    width: 50%; /* Ancho del formulario */
-  }
-  
-  #contact label,
-#contact input,
-#contact textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-#contact input[type="text"] {
-  height: 30px;
-}
-
-#contact textarea {
-  height: 100px;
-}
-
-#contact input[type="submit"] {
-  margin-top: 10px;
-  background-color: #184379;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-}
 
 /* Estilos del footer */
 footer {
-    background-color:#184379;
+    background-color:#123e60;
     color: #fff;
     padding: 10px;
     text-align:center;
